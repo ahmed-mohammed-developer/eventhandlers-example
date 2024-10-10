@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import ButtonClick from './ButtonC;ick/ButtonClick';
+import TextInput from './TextInput/TextInput'
+import FormSubm from './FormSubm/FormSubm'
+import ToggleState from './ToggleState/ToggleState'
+import ChangeColor from './ChangeColor/ChangeColor'
+import DisplayMessage from './DisplayMessage/DisplayMessage'
+import ClickCounter from './ClickCounter/ClickCounter'
+import ChangeText from './ChangeText/ChangeText'
+import DateDisplay from './DateDisplay/DateDisplay'
+import Size from './Size/Size'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <ButtonClick />
+     <TextInput />
+     <FormSubm />
+     <ToggleState />
+     <ChangeColor />
+     <DisplayMessage />
+     <ClickCounter />
+     <ChangeText />
+     <DateDisplay />
+     <Size />
     </div>
   );
 }
